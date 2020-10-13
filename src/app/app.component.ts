@@ -8,16 +8,16 @@ import { Component,OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'BTHanh-ANGULAR';
   ngOnInit(): void {
-     this.Bai01();
-    // this.Bai02();
-    // this.Bai03();
-    // this.Bai01TuLam();
-    // this.Bai02TuLam();
-    // this.Bai03TuLam();
-    // this.Bai04TuLam();
-    // this.Bai05TuLam();
-    // this.Bai06TuLam();
-    // this.Bai08TuLam();
+    this.Bai01();
+     this.Bai02();
+     this.Bai03();
+     this.Bai01TuLam();
+     this.Bai02TuLam();
+     this.Bai03TuLam();
+     this.Bai04TuLam();
+     this.Bai05TuLam();
+     this.Bai06TuLam();
+     this.Bai08TuLam();
   }
   //Bai mau
   Bai01(): void {
@@ -95,7 +95,7 @@ export class AppComponent implements OnInit {
   }
   Bai03TuLam(): void {
     let students: any[] = [
-      { hoten: 'Nguyen Thi Mai', diemthi: 9 },
+      { hoten: 'Nguyen tien dinh', diemthi: 9 },
       { hoten: 'Tran Thi Anh', diemthi: 7.5 },
       { hoten: 'Hoang Thi Dung', diemthi: 8.3 },
     ];
